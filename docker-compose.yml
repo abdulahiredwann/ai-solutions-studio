@@ -1,0 +1,16 @@
+services:
+  perfect-smile:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: perfect-smile
+    restart: unless-stopped
+    ports:
+      - "3001:80"  # Expose port 3001 on host, map to port 80 in container
+    networks:
+      - proxy-network
+
+networks:
+  proxy-network:
+    external: true
+
