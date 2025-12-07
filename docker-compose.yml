@@ -1,9 +1,9 @@
 services:
-  perfect-smile:
+  ai-solution:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: perfect-smile
+    container_name: ai-solution
     restart: unless-stopped
     ports:
       - "3001:80"  # Expose port 3001 on host, map to port 80 in container
