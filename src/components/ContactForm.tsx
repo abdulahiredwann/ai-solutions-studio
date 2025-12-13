@@ -47,9 +47,8 @@ const ContactForm = ({ onSuccess }: ContactFormProps) => {
 
     try {
       // FormSubmit - Simple email service, no signup required
-      // Replace with your email address
       const recipientEmail =
-        import.meta.env.VITE_CONTACT_EMAIL || "your-email@example.com";
+        import.meta.env.VITE_CONTACT_EMAIL || "Support@data-aianalysis.com";
 
       const formData = {
         name: data.name,

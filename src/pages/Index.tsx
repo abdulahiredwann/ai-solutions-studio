@@ -274,6 +274,12 @@ const Index = () => {
                 >
                   📞 054-990-1996
                 </a>
+                <a
+                  href="mailto:Support@data-aianalysis.com"
+                  className="inline-flex items-center gap-2 text-xl font-semibold text-primary hover:underline md:text-2xl"
+                >
+                  ✉️ Support@data-aianalysis.com
+                </a>
               </div>
             </div>
             <div className="rounded-lg border border-border bg-card p-6 shadow-sm md:p-8">
