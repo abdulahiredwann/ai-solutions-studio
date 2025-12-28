@@ -75,13 +75,20 @@ const Index = () => {
             </div>
 
             <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
-              <Button size="lg" className="text-base font-medium shadow-lg">
+              <Button
+                size="lg"
+                className="text-base font-medium shadow-lg"
+                onClick={() =>
+                  (window.location.href = "https://prod.daivio.com/")
+                }
+              >
                 Get Started
               </Button>
               <Button
                 size="lg"
                 variant="outline"
                 className="text-base font-medium"
+                onClick={() => (window.location.href = "https://daivio.com/")}
               >
                 Learn More
               </Button>
